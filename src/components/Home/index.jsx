@@ -27,38 +27,6 @@ const getItemColor = (color) => ({
 
 class Home extends Component {
 
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       squares: 8
-//     }
-//   }
-
-//   createSquares = () => {
-//     let squares = [];
-//     for (let i = 0; i < this.state.squares; i++) {
-//       for (let j = 0; j < this.state.squares; j++) {
-//         let divStyle = {
-//           backgroundColor: "#81b71a"
-//         };
-//         squares.push(<div className="square square_" style={divStyle}></div>);
-//       }
-//     }
-//     console.log(this.props.color)
-//     return squares;
-//   }
-
-//   render() {
-//     return (
-//       <div className="fix-container home-page">
-//         <div className="box-main">
-//           {this.createSquares()}
-//         </div>
-//       </div>
-//     )
-//   }
-// }
-
   constructor(props, context) {
     super(props, context);
     this.state = {
